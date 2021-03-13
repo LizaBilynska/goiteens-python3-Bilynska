@@ -1,0 +1,52 @@
+1.1 
+
+presidency_years = input("Введіть кількість років президентства:") 
+terms_in_duty = presidency_years / 4;
+if terms_in_duty > 2:
+    print("Президент не може бути на посту президента більше 2 термінів")
+
+1.2
+George_Washington = 2
+Thomas_Jefferson = 2
+Herbert_Hoover = 1
+Barack_Obama = 2
+
+term_of_presidency = 4
+
+years_George_Washington = print (George_Washington * term_of_presidency)
+years_Thomas_Jefferson = print (Thomas_Jefferson * term_of_presidency)
+years_Herbert_Hoover = print (Herbert_Hoover * term_of_presidency)
+years_Barack_Obama = print (Barack_Obama * term_of_presidency)
+
+2.1 
+
+game = input ("Выберите желаемую игру:")
+if game == "2D":
+    print ("Terraria")
+if game == "3D":
+    print ("Minecraft")
+
+2.2 
+
+Terraria = 2011
+Minecraft = 2009
+
+if Terraria > Minecraft:
+    print ("Terraria старше")
+if Terraria < Minecraft:
+    print ("False")
+
+2.3
+health_points = 100 
+
+damage_sk = 15
+damage_sp = 40
+damage_zom = 5
+
+amount_sk = 1
+amount_sp = 2
+amount_zom = 5
+
+full_damage = int ((15*1) + (40*2) + (5*5))
+if full_damage > health_points: 
+    print ("You died!")
